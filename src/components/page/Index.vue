@@ -1,25 +1,7 @@
 <script setup>
-import { ref } from "vue";
-
-const items = ref([
-  {
-    label: "Home",
-    icon: "pi pi-home",
-  },
-  {
-    label: "Features",
-    icon: "pi pi-star",
-  },
-  {
-    label: "Contact",
-    icon: "pi pi-envelope",
-  },
-]);
+import Layout from "@/components/layouts/Index.vue";
 </script>
 
 <template>
-  <div class="card">
-    <Menubar :model="items" />
-  </div>
-  <div>Ini Page</div>
+  <Layout />
 </template>

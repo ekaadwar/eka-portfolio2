@@ -3,5 +3,8 @@ import Page from "./components/page/Index.vue";
 </script>
 
 <template>
-  <Page />
+  <div>
+    <Button label="Check" icon="pi pi-check" />
+    <Page />
+  </div>
 </template>
