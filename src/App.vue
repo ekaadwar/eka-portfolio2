@@ -15,6 +15,7 @@ import TheWelcome from "./components/TheWelcome.vue";
 
     <div class="wrapper">
       <HelloWorld msg="You did it!" />
+      <Button class="pt-5 mt-5" label="Check" icon="pi pi-check" />
     </div>
   </header>
 

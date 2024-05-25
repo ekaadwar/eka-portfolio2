@@ -1,6 +1,13 @@
-import './assets/main.css'
+import "./assets/main.css";
+import "primevue/resources/themes/aura-light-green/theme.css";
+import "./App.scss";
+import PrimeVue from "primevue/config";
+import Button from "primevue/button";
 
-import { createApp } from 'vue'
-import App from './App.vue'
+import { createApp } from "vue";
+import App from "./App.vue";
 
-createApp(App).mount('#app')
+const app = createApp(App);
+app.component("Button", Button);
+
+app.mount("#app");
